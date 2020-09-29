@@ -1,8 +1,15 @@
-.dark-card {
-    border: black solid 1px;
+.dark-card-wrap {
+    padding: 10px;
     background-color: black;
+    border-radius: 5px;
+}
+
+.dark-card {
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgb(59, 59, 59) 50%, rgb(51, 51, 51) 40%);
 }
 
 .dark-card-header h3, .dark-card-content p {
-    color: rgb(190, 190, 190);
+    text-align: center;
+    color: rgb(245, 245, 245);
 }
