@@ -1,12 +1,20 @@
 .dark-card-wrap {
-    padding: 10px;
+    padding: 10px 10px 10px 10px;
     background-color: black;
     border-radius: 5px;
+    width: 220px;
+    height: 320px;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dark-card-wrap:hover {
+    box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .dark-card {
     border-radius: 5px;
     background-image: linear-gradient(to right, rgb(59, 59, 59) 50%, rgb(51, 51, 51) 40%);
+    height: 300px;
 }
 
 .dark-card-header h3, .dark-card-content p {
