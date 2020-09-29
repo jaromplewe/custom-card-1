@@ -1,5 +1,8 @@
-.column {
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
+.dark-card {
+    border: black solid 1px;
+    background-color: black;
+}
+
+.dark-card-header h3, .dark-card-content p {
+    color: rgb(190, 190, 190);
 }
