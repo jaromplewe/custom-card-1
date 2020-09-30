@@ -1,20 +1,39 @@
 .dark-card-wrap {
-    padding: 10px 10px 10px 10px;
+    /* alignment */
+    padding: 10px;
+    margin: 50px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+
+    /* styles */
     background-color: black;
-    border-radius: 5px;
+    border-radius: 2.5px;
     width: 220px;
     height: 320px;
-    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: ease 0.5s;
 }
 
 .dark-card-wrap:hover {
-    box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dark-card:hover {
+    margin-top: -45px;
 }
 
 .dark-card {
-    border-radius: 5px;
+    /* alignment */
+    display: inline-block;
+    margin: 5px;
+    transition: ease 0.4s;
+
+    /* styles */
+    border-radius: 2.5px;
     background-image: linear-gradient(to right, rgb(59, 59, 59) 50%, rgb(51, 51, 51) 40%);
     height: 300px;
+    width: 200px;
 }
 
 .dark-card-header h3, .dark-card-content p {
