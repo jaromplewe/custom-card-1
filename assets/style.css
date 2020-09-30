@@ -1,3 +1,5 @@
+
+
 .dark-card-wrap {
     /* alignment */
     padding: 10px;
@@ -8,9 +10,10 @@
 
     /* styles */
     background-color: black;
+    border: solid rgb(48, 48, 48) 2px;
     border-radius: 2.5px;
-    width: 220px;
-    height: 320px;
+    width: 210px;
+    height: 310px;
     box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: ease 0.5s;
 }
@@ -21,6 +24,7 @@
 
 .dark-card:hover {
     margin-top: -45px;
+    box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .dark-card {
@@ -36,7 +40,22 @@
     width: 200px;
 }
 
-.dark-card-header h3, .dark-card-content p {
+.dark-card-header h3, h4, .dark-card-content p {
     text-align: center;
     color: rgb(245, 245, 245);
+}
+
+.seperator {
+    border-bottom: solid rgb(245, 245, 245) 1px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.identity {
+    height: 35px;
+    width: 50%;
+    line-height: 35px;
+    margin: auto;
+    background-color: rgb(38, 124, 253);
+    border-radius: 17.5px;
 }
