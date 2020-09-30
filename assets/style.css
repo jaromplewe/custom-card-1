@@ -1,5 +1,3 @@
-
-
 .dark-card-wrap {
     /* alignment */
     padding: 10px;
@@ -14,31 +12,26 @@
     border-radius: 2.5px;
     width: 210px;
     height: 310px;
-    box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     transition: ease 0.5s;
-}
-
-.dark-card-wrap:hover {
-    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .dark-card:hover {
     margin-top: -45px;
-    box-shadow: 0.5px 0.5px 10px #858585;
+    box-shadow: 0.5px 0.5px 9px #858585;
 }
 
 .dark-card {
     /* alignment */
     display: inline-block;
     margin: 5px;
-    transition: ease 0.4s;
-
+    
     /* styles */
     border-radius: 2.5px;
     background-image: linear-gradient(to right, rgb(59, 59, 59) 50%, rgb(51, 51, 51) 40%);
     height: 300px;
     width: 200px;
-    /* box-shadow: 2px 2px 18px #858585; */
+    transition: ease 0.4s;
 }
 
 .dark-card-header h3, h4, .dark-card-content p {
