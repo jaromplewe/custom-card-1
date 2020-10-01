@@ -1,7 +1,10 @@
+body {
+    padding: 50px;
+}
+
 .dark-card-wrap {
     /* alignment */
     padding: 10px;
-    margin: 50px;
     text-align: center;
     vertical-align: middle;
     display: table-cell;
